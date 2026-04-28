@@ -1,0 +1,90 @@
+body {
+    background-color: #c5f03d;
+}
+
+img {
+    display:block;
+    margin: 2px auto;
+    width: 20%;
+    transform: scaleX(1.5);
+}
+
+header a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+header h1 {
+    color: navy;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header h2 {
+    color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#about p, footer p, #information p, label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+
+footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: green;
+    margin: 15px;
+    
+
+}
+#hobbies p, #about2, #contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: green;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#hobbies li {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: green;
+    padding: 0%;
+    margin: 0%;
+}
+
+@media screen and (min-width: 480px) {
+
+    #contact {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header a:visited {
+        color:aqua;
+        background-color: darkolivegreen;
+    }
+
+@media screen and (min-width:760px) and (max-width: 1000px) {
+    
+    nav li:first-child {
+        display: inline-block;
+        border-top: 0;
+        border-right: 0;
+    }
+
+    #about, #about2, #contact, footer p, #about p {
+        background: linear-gradient(to right, fuchsia, darkblue);
+        padding: 0;
+        color: white;
+    }
+}
+}

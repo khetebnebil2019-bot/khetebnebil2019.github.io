@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fill Out Your Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h1>Fill out your Form</h1>
+    <a href="index.html">Home</a>&nbsp; &#9475; &nbsp;
+    <a href="about.html">About Me</a>&nbsp; &#9475; &nbsp;
+    <a href="contact.html">Contact</a>&nbsp; &#9475; &nbsp;
+    <a href="form.html">Fill out your form</a>&nbsp; &#9475; &nbsp;
+    <a href="random.html">Random Page</a>
+</header>
+<nav>
+</nav>
+<main>
+    <form>
+            <div id="information">
+            <p>Make Sure You Fill Out Your Information</p>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" value="Male" name="field">
+            <label for="male"> Male</label>
+            <input type="radio" id="female" value="Female" name="field">
+            <label for="female"> Female</label>
+            <br>
+            <label for="pwd">Create your Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="7">
+            <br>
+            <p><label>Please tell me about yourself.</label></p>
+            <textarea name="feedback" rows="5" cols="100"></textarea>
+            <br>
+            <input type="submit" value="Submit the Form">
+            </div>
+    </form>
+</main>
+<footer>
+    <div id="lastMod">
+    <script>
+        let text = document.lastModified;
+        document.getElementById("lastMod").innerHTML = text;
+    </script>
+    <script src = "jsScript.js"></script>
+    </div>
+    <p>April 30, 2026</p>
+</footer>
+</html>
